@@ -29,11 +29,11 @@ public class SetupPasswordActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_setup_password);
 
-        businessName = (EditText) findViewById(R.id.cname);
-        businessAddress = (EditText) findViewById(R.id.address);
-        businessContact = (EditText) findViewById(R.id.cno);
-        newPass = (EditText) findViewById(R.id.password);
-        confirmPass = (EditText) findViewById(R.id.cpassword);
+        businessName = (EditText) findViewById(R.id.setup_business_value);
+        businessAddress = (EditText) findViewById(R.id.setup_business_address_value);
+        businessContact = (EditText) findViewById(R.id.setup_business_contact_value);
+        newPass = (EditText) findViewById(R.id.setup_new_password_value);
+        confirmPass = (EditText) findViewById(R.id.setup_confirm_password_value);
         setupPass = (Button) findViewById(R.id.loginButton);
 
         setupPass.setOnClickListener(new View.OnClickListener() {
